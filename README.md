@@ -23,8 +23,10 @@
 animation 和 animator 对应两种加载效果<br>
 不设置时即默认值是animation
 
-当为animation时，效果如图所示：
+当为animation时，效果如图所示：<br>
 ![image](http://p86xu5smy.bkt.clouddn.com/1.gif)
+
+
 
 
      
