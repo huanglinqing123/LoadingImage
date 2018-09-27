@@ -29,8 +29,10 @@ animation 和 animator 对应两种加载效果<br>
 大小可以自己设置，20dp左右最佳<br>
 
 当为animator时，效果图如下：<br>
+
 ![image](http://p86xu5smy.bkt.clouddn.com/2.gif)
 可以看到小球的颜色再变换，当然我们也可以设置多个并排显示，如图所示:<br>
+
 ![image](http://p86xu5smy.bkt.clouddn.com/3.gif)
 球的大小我们也可以取设置<br>
 源码地址;https://github.com/huanglinqing123/LoadingImage<br>
