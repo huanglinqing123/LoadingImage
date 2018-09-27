@@ -8,10 +8,8 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.AnimationDrawable;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 /**
  * @author Huanglinqing
@@ -53,13 +51,6 @@ public class LoadingImageView extends ImageView {
         return loadingImageView;
     }
 
-    public void setImageResource(int image[]){
-        if (image == null){
-            return;
-        }
-        imageResource = image;
-        isSeltImage = true;
-    }
 
     public LoadingImageView(Context context) {
         super(context);
@@ -110,7 +101,6 @@ public class LoadingImageView extends ImageView {
      */
     private void initValueAnimator() {
         if (isSeltImage){
-            Log.d("不不急不急","图片结果");
         }
         v = ValueAnimator.ofInt(0, 100, 0);
         v.setRepeatMode(ValueAnimator.RESTART);
